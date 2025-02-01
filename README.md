@@ -21,18 +21,18 @@ _//  If-else : Syntax => if(boolean expression T or F){
 //                         }_ 
 
 ## * Lecture3 : Switch Statements && Nested Case
- * Switch Syntax : switch(expression){
- *             //case one -> do something
- *             //case two -> do something
- *             //default -> do something
- *            }
+// Switch Syntax : switch(expression){
+            //case one -> do something
+            //case two -> do something
+            //default -> do something
+           }
 
-* Nested Switch Syntax : switch(expression){
-*                          //case one -> do something
-*                          //case two -> do something
-*                          //case three -> switch(expression){
-*                                                //case one -> do something
-*                                                //case two -> do something
-*                                                //default -> do something
-*                                          }
-*                        }
+Nested Switch Syntax : switch(expression){
+                         //case one -> do something
+                         //case two -> do something
+                         //case three -> switch(expression){ 
+                                               //case one -> do something
+                                               //case two > do something
+                                              //default -> do something
+                                         }
+                       }

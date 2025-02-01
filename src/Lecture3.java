@@ -12,5 +12,6 @@ public class Lecture3 {
             case "Apple" -> System.out.println("gfgdgffhhj");
             default -> System.out.println("00000000000000");
         }
+//        hcvasjcn
     }
 }
