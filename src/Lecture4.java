@@ -1,5 +1,6 @@
 package src;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -42,6 +43,38 @@ public class Lecture4 {
 //        }
 
 //        ArrayList : It is a part of the java collection framework.
+//        ArrayList<Integer> list = new ArrayList<>();
+//        list.add(67);
+//        list.add(67);
+//        list.add(67);
+//        list.add(67);
+//
+//        System.out.println(list.contains(66));
+//        System.out.println(list);
+//        list.set(0,99);
+//        list.remove(2);
+
+//        input
+//        for (int i = 0; i < 5; i++) {
+//            list.add(sc.nextInt());
+//        }
+//        to get item
+//        for (int i = 0; i <5 ; i++) {
+//            System.out.println(list.get(i));
+//        }
+
+//        MultiDimensional ArrayList:
+        ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+        for (int i = 0; i < 3; i++) {
+            list.add(new ArrayList<>());
+        }
+
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                list.get(i).add(sc.nextInt());
+            }
+        }
+        System.out.println(list);
     }
 }
 

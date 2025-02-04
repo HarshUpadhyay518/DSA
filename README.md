@@ -57,5 +57,12 @@ Nested Switch Syntax : switch(expression){
                   Initialization : int[][]arr = new int[row][column]
 )
 
-[//]: # (ArrayList : It is used when we have not given the size and ask to take the size as we dynamically add the values.
-                Initialization :  ArrayList<Integer> list = new ArrayList<>();
+* ArrayList : It is used when we have not given the size and ask to take the size as we dynamically add the values. 
+* It is a part of the java collection framework.
+* Size is fixed internally.
+*  ArrayList fills by some amount.
+* It will create a new arrayList of double size (we have to check).
+* Old elements are copied to new one.
+* Old one is deleted.
+* Time Complexity : O(1).
+* Initialization :  ArrayList<Integer> list = new ArrayList<>();
