@@ -1,4 +1,4 @@
-package src;
+package src.DailyLectures;
 
 import java.util.Scanner;
 

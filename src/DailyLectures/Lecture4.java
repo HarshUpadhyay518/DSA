@@ -1,7 +1,6 @@
-package src;
+package src.DailyLectures;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Lecture4 {
