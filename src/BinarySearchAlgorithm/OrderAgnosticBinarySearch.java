@@ -3,7 +3,7 @@ package src.BinarySearchAlgorithm;
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
         int[] arr = {2,4,5,6,8,20,36,48};
-        int target = 4;
+        int target = 4  ;
         int ans = orderAgnosticBinarySearch(arr,target);
         System.out.println(ans);
     }
