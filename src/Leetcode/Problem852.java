@@ -13,7 +13,7 @@
 //class Solution {
 //    public int binarySearch(MountainArray mountainArr , int target , boolean asc , int top){
 //        if(asc){
-//            int start = 0;
+////            int start = 0;
 //            int end = top;
 //
 //            while(start<=end){
